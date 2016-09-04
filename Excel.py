@@ -57,7 +57,7 @@ def not_empty_line(sheet):
         for cell in row:
             if cell.ctype != xlrd.XL_CELL_EMPTY:
                 return row_nu
-                #         print row
+
     return -1
 
 
